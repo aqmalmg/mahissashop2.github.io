@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+  background-color: slategray;
+}
+
+/* Navigation Bar Start (all HTML) */
+
+.navbar {
+  background-color: rgb(185, 175, 175);
+  padding: 10px 0px 10px 0px;
+}
+
+.logo {
+  padding: 0px 0px 0px 20px;
+}
+
+.logo a img{
+  width: 100px;
+  align-items: center;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar nav ul {
+  display: flex;
+}
+
+.navbar nav ul li {
+  list-style: none;
+}
+
+.navbar nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0px 20px;
+  font-weight: 200;
+}
+
+.navbar nav ul li a:hover {
+  font-weight: 1000;
+}
+
+/* Navigation Bar End (all HTML) */
+
+/* index.html CSS Start */
+
+.background-banner img {
+  width: 100%;
+}
+
+.heading-content-area {
+  text-justify: auto;
+}
+
+/* index.html CSS End */
+
+/* shop.html CSS Start */
+
+/* shop.html CSS End */
+
+/* about.html CSS Start */
+
+/* about.html CSS End */
+
+/* contact.html CSS Start */
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* contact.html CSS End */
